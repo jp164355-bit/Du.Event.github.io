@@ -1,0 +1,6 @@
+1. Save files: index.html, styles.css, script.js, database.sql, server.cpp
+2. Install MySQL, create database with database.sql
+3. Install C++ deps: `sudo apt install libhttplib-dev nlohmann-json3-dev libmysqlcppconn-dev`
+4. Compile: `g++ -o server server.cpp -lmysqlcppconn -pthread`
+5. Run: `./server &`
+6. Open: index.html in browser
